@@ -1,0 +1,411 @@
+
+
+.root{
+    width: 99vw;
+    height:98vh;
+}
+
+.header-container{
+    width: auto;
+    height: 60px;
+    margin: 2px;
+    display: flex;
+    justify-content:space-between;
+    background: #2b2b82;
+    border-radius: 5px;
+}
+
+.title-container{
+    width: 400px;
+    height: auto;
+    margin: 1px;
+    display: flex;
+}
+
+.title-logo{
+    width: 100px;
+    height: auto;
+    margin: 2px;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.title-logo i{
+    font-size: 40px;
+    color: #ff6200;
+}
+
+.title-name{
+    width: 250px;
+    height: auto;
+    margin: 2px;
+}
+
+.title-name p{
+    font-size: 35px;
+    font-weight: 800;
+    font-style: italic;
+    color: #ff6200;
+    margin-left: 5px;
+}
+
+.dave-container{
+    width: 300px;
+    height: auto;
+    margin: 1px;
+    display: flex;
+}
+
+.dave-logo{
+    width: 80px;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.dave-logo i{
+    font-size: 40px;
+}
+
+.dave-title{
+    width: 200px;
+    height: auto;
+    margin: 2px;
+}
+
+.dave-title p{
+    font-size: 35px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.sign-out-container{
+    width: 400px;
+    height: auto;
+    margin: 1px;
+    display: flex;
+}
+
+.sign-out-title{
+    width: 250px;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    justify-content: right;
+}
+
+.sign-out-title p{
+    font-size: 20px;
+    color: #c9c9c9;
+    margin-top: 9px;
+}
+
+.sign-out-logo{
+    width: 100px;
+    height: auto;
+    margin: 2px;
+}
+
+.sign-out-logo i{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 15px;
+    color: #c9c9c9;
+}
+
+.search-and-song-container{
+    width: 78%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchbar-container{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.search-bar{
+    width: 80%;
+    height: auto;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input{
+    border: none;
+    border-bottom: 1px solid;
+    height: 40px;
+    width: 750px;
+    outline: none;
+    font-size: 20px;
+}
+
+.search-button{
+    width: 100px;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.songs{
+    width: auto;
+    height: 500px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background:linear-gradient(to bottom,#1e6870,#111212);
+    border-radius: 5px;
+}
+
+.one-song-container{
+    width: auto;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.one-song-container:hover{
+    background: linear-gradient(to bottom,#1e6870,#111212);
+}
+
+.like-button-container{
+    width: 80px;
+    height: 100px;
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.song-likecount{
+    width: 30px;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-likecount p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #c9c9c9;
+    position: relative;
+    top:8px;
+}
+
+.song-like-button{
+    width: 30px;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.song-like-button i{
+    font-size: 20px;
+}
+
+.title-subtitle-container{
+    width: 250px;
+    height: 100px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.song-title{
+    width: auto;
+    height: 55px;
+    margin: 2px;
+    display: flex;
+}
+
+.song-title p{
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    top:20px;
+}
+
+.song-subtitle{
+    width: auto;
+    height: 30px;
+    margin: 2px;
+}
+
+.song-subtitle p{
+    color: #c9c9c9;
+    font-size: 13px;
+}
+
+.audio-bar-container{
+    width: 500px;
+    height: 100px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-bar-container audio{
+    width: 450px;
+
+}
+
+.delete-container{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addsong-container{
+    width: 78%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background:linear-gradient(to bottom,#262636,#353538);
+    border-radius: 5px;
+}
+
+.enter-title-container{
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter-title-container input, .enter-subtitle-container input{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+.enter-subtitle-container input::placeholder, .enter-title-container input::placeholder{
+    color: #c9c9c9;
+    font-size: 15px;
+}
+
+.enter-subtitle-container{
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-song-button-container{
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:758px) and (max-width:1268px){
+    .title-subtitle-container{
+        width: 150px;
+    }
+    .song-title p{
+        font-size: 15px;
+    }
+    .song-subtitle p{
+        font-size: 10px;
+    }
+    .audio-bar-container{
+        width: 200px;
+    }
+    .audio-bar-container audio{
+        width: 150px;
+    }
+}
+
+@media (min-width:397px) and (max-width:757px){
+    .audio-bar-container{
+        display: none;
+    }
+    .title-subtitle-container{
+        width: 80px;
+    }
+    .song-title p{
+        font-size: 10px;
+    }
+    .song-subtitle p{
+        font-size: 8px;
+    }
+    .sign-out-container{
+        display: none;
+    }
+    .title-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:396px){
+    .like-button-container{
+        width: 40px;
+    }
+    .audio-bar-container{
+        display: none;
+    }
+    .title-subtitle-container{
+        width: 80px;
+    }
+    .song-title p{
+        font-size: 10px;
+    }
+    .song-subtitle p{
+        font-size: 8px;
+    }
+    .delete-container{
+        width: 50px;
+    }
+
+    .delete-container button{
+        font-size: 5px;
+    }
+    .sign-out-container{
+        display: none;
+    }
+    .title-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
